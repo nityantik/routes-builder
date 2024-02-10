@@ -7,7 +7,7 @@
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nityantik/routes-builder.git"
+    "url": "git+https://github.com/nityantik/routes-builder.git"
   },
   "main": "./dist/routes-builder.js",
   "module": "./dist/routes-builder.mjs",
@@ -36,8 +36,8 @@
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
-	"bugs": {
-		"url": "https://github.com/nityantik/routes-builder/issues"
-	},
-	"homepage": "https://github.com/nityantik/routes-builder"
+  "bugs": {
+    "url": "https://github.com/nityantik/routes-builder/issues"
+  },
+  "homepage": "https://github.com/nityantik/routes-builder"
 }
