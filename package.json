@@ -1,6 +1,6 @@
 {
   "name": "@nityantik/routes-builder",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Build routes from string by setting parameters and queries",
   "author": "Sagar Patel <sagarpatel9697@gmail.com>",
   "license": "MIT",
