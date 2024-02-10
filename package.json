@@ -1,0 +1,39 @@
+{
+  "name": "routes-builder",
+  "version": "1.0.1",
+  "description": "Build routes from string by setting parameters and queries",
+  "author": "Sagar Patel <sagarpatel9697@gmail.com>",
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nityantik/routes-builder.git"
+  },
+  "main": "./dist/routes-builder.js",
+  "module": "./dist/routes-builder.mjs",
+  "types": "./dist/routes-builder.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "routes builder",
+    "route builder",
+    "api url generator",
+    "api url builder",
+    "url generator",
+    "url builder",
+    "rest routes builder"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
