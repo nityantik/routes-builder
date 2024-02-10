@@ -3,7 +3,7 @@
 Build routes from string by setting parameters and queries.
 
 # Installation
-`npm install --save routes-builder`.
+`npm install --save @nityantik/routes-builder`.
 
 # Description
 
@@ -13,7 +13,7 @@ Build routes from string by setting parameters and queries.
 # Usage
 
 ```
-import RoutesBuilder from 'routes-builder
+import RoutesBuilder from '@nityantik/routes-builder'
 
 let route = RoutesBuilder.route('/api/users/{id}');
 route.param('id', '1');
@@ -24,7 +24,7 @@ route.get(); //return /api/users/1?token=abc
 # Examples
 
 ```typescript
-import RoutesBuilder from 'routes-builder';
+import RoutesBuilder from '@nityantik/routes-builder';
 
 class UserService {
 
